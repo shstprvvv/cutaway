@@ -1,0 +1,77 @@
+.margin {
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+  font-size: 50px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.animated {
+  margin-left: -100%;
+  animation: slideIn 5s linear 1;
+  opacity: 1;
+}
+
+@keyframes slideIn {
+  to {
+    margin-left: 0;
+    opacity: 1;
+  }
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 15%;
+}
+
+.about p {
+  font-size: 25px;
+}
+
+.block {
+  font-size: 25px;
+  margin-top: 15%;
+}
+
+.block .h2 {
+  margin-top: 10%;
+}
+
+.block h2 {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 15%;
+}
+
+.footer a {
+  margin-left: 3%;
+  font-size: 20px;
+}
+
+.image_text {
+  display: flex;
+  align-items: center;
+}
+
+.image_text img {
+  width: 30%;
+  border-radius: 200px;
+  border: 3px solid blanchedalmond;
+}
+
+.image_text p {
+  width: 50%;
+  padding: 20px;
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 15%;
+  margin-left: 5%;
+  opacity: 0.5;
+}
